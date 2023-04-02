@@ -1,0 +1,1 @@
+<view class="container data-v-569124d3"><text class="page-header data-v-569124d3">胶囊信息</text><view class="main data-v-569124d3"><form class="data-v-569124d3" method="post" style="margin-bottom:30rpx"><view class="data-v-569124d3"><text class="data-v-569124d3">胶囊Key:</text><input class="put-input data-v-569124d3" value="{{a}}" type="text"></input></view></form></view></view>

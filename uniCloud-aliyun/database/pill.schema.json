@@ -1,0 +1,48 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["uid","name","email","time","content"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		
+		"uid":{
+			"description": "32位uuid，胶囊唯一标识",
+			"bsonType": "string",
+			"title": "uid"
+		},
+		"name":{
+			"description": "胶囊对应的用户姓名",
+			"bsonType": "string",
+			"title": "name"
+		},
+		"email":{
+			"description": "胶囊对应的用户邮箱",
+			"bsonType": "string",
+			"title": "email"
+		},
+		"time":{
+			"description": "胶囊设定的打开时间",
+			"bsonType": "string",
+			"title": "time"
+		},
+		"content":{
+			"description": "胶囊的内容",
+			"bsonType": "string",
+			"title": "content"
+		},
+		"info":{
+			"description": "胶囊未到期提示",
+			"bsonType": "string",
+			"title": "info"
+		}
+		
+	}
+}
